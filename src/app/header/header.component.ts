@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { MoviesService }            from '../movies/movies.service';
+import { Component, OnInit } from "@angular/core";
+import { MoviesService } from "../movies/movies.service";
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: "app-header",
+  templateUrl: "./header.component.html",
+  styleUrls: ["./header.component.css"],
 })
-export class HeaderComponent{
-  title = 'MovieDB App';
-  language : string;
+export class HeaderComponent {
+  title = "Mounty Assignment";
+  language: string;
 
-  constructor(
-    private moviesService: MoviesService
-  ) { }
+  constructor(private moviesService: MoviesService) {}
 }

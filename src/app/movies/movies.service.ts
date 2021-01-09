@@ -10,7 +10,7 @@ import { UpMovie } from "./upcoming/up_movie";
 @Injectable()
 export class MoviesService {
   private url = "https://api.themoviedb.org/3/movie/";
-  private apiKey = "68b4fe2a513155a58dd0af4adacb281b";
+  private apiKey = "765b05b6ad64d76c4f63fc85b4c07c25";
   private language;
 
   constructor(private http: Http) {
